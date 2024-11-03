@@ -1,3 +1,3 @@
-module example.com/monkey_interpreter
+module example.com/cat_interpreter
 
 go 1.23.2

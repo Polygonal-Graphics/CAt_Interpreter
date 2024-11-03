@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"example.com/monkey_interpreter/src/repl"
+	"example.com/cat_interpreter/src/repl"
 )
 
 func main() {
@@ -13,8 +13,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Hello %s! This is the Monkey programming language!\n",
+	fmt.Printf("Hello %s! This is the CA+ programming language!\n",
 		user.Username)
-	fmt.Printf("Feel free to type in commands\n")
+	fmt.Printf("Type some demands of my capabilities\n")
 	repl.Start(os.Stdin, os.Stdout)
 }
